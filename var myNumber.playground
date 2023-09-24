@@ -1,0 +1,5 @@
+var myNumber
+
+myNumber = 10
+
+print(myNumber)

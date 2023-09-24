@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		104267032A4226AA000B1A3E /* figmaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104267022A4226AA000B1A3E /* figmaAppApp.swift */; };
+		104267052A4226AA000B1A3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104267042A4226AA000B1A3E /* ContentView.swift */; };
+		104267072A4226AA000B1A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104267062A4226AA000B1A3E /* Assets.xcassets */; };
+		1042670A2A4226AA000B1A3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104267092A4226AA000B1A3E /* Preview Assets.xcassets */; };
+		104267132A4235C3000B1A3E /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 104267112A4235C3000B1A3E /* Inter-Bold.otf */; };
+		104267142A4235C3000B1A3E /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 104267122A4235C3000B1A3E /* Inter-SemiBold.otf */; };
+		104267172A4236FD000B1A3E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104267162A4236FD000B1A3E /* File.swift */; };
+		10FDA7A82A425BB0006EA294 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FDA7A72A425BB0006EA294 /* SettingsView.swift */; };
+		10FDA7AA2A425BC2006EA294 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FDA7A92A425BC2006EA294 /* InboxView.swift */; };
+		10FDA7AC2A425BDE006EA294 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FDA7AB2A425BDE006EA294 /* RemindersView.swift */; };
+		10FDA7AE2A425C87006EA294 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FDA7AD2A425C87006EA294 /* TaskListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		104266FF2A4226AA000B1A3E /* figmaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = figmaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		104267022A4226AA000B1A3E /* figmaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = figmaAppApp.swift; sourceTree = "<group>"; };
+		104267042A4226AA000B1A3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		104267062A4226AA000B1A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		104267092A4226AA000B1A3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		104267112A4235C3000B1A3E /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Bold.otf"; path = "../../../../../Downloads/Inter-3.19/Inter Desktop/Inter-Bold.otf"; sourceTree = "<group>"; };
+		104267122A4235C3000B1A3E /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-SemiBold.otf"; path = "../../../../../Downloads/Inter-3.19/Inter Desktop/Inter-SemiBold.otf"; sourceTree = "<group>"; };
+		104267152A42363A000B1A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		104267162A4236FD000B1A3E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		10FDA7A72A425BB0006EA294 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		10FDA7A92A425BC2006EA294 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		10FDA7AB2A425BDE006EA294 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		10FDA7AD2A425C87006EA294 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		104266FC2A4226AA000B1A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104266F62A4226AA000B1A3E = {
+			isa = PBXGroup;
+			children = (
+				104267012A4226AA000B1A3E /* figmaApp */,
+				104267002A4226AA000B1A3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		104267002A4226AA000B1A3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				104266FF2A4226AA000B1A3E /* figmaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		104267012A4226AA000B1A3E /* figmaApp */ = {
+			isa = PBXGroup;
+			children = (
+				104267152A42363A000B1A3E /* Info.plist */,
+				104267022A4226AA000B1A3E /* figmaAppApp.swift */,
+				104267042A4226AA000B1A3E /* ContentView.swift */,
+				10FDA7A72A425BB0006EA294 /* SettingsView.swift */,
+				10FDA7AD2A425C87006EA294 /* TaskListView.swift */,
+				10FDA7A92A425BC2006EA294 /* InboxView.swift */,
+				10FDA7AB2A425BDE006EA294 /* RemindersView.swift */,
+				104267162A4236FD000B1A3E /* File.swift */,
+				104267102A4234E2000B1A3E /* Font */,
+				104267062A4226AA000B1A3E /* Assets.xcassets */,
+				104267082A4226AA000B1A3E /* Preview Content */,
+			);
+			path = figmaApp;
+			sourceTree = "<group>";
+		};
+		104267082A4226AA000B1A3E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				104267112A4235C3000B1A3E /* Inter-Bold.otf */,
+				104267122A4235C3000B1A3E /* Inter-SemiBold.otf */,
+				104267092A4226AA000B1A3E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		104267102A4234E2000B1A3E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		104266FE2A4226AA000B1A3E /* figmaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1042670D2A4226AA000B1A3E /* Build configuration list for PBXNativeTarget "figmaApp" */;
+			buildPhases = (
+				104266FB2A4226AA000B1A3E /* Sources */,
+				104266FC2A4226AA000B1A3E /* Frameworks */,
+				104266FD2A4226AA000B1A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = figmaApp;
+			productName = figmaApp;
+			productReference = 104266FF2A4226AA000B1A3E /* figmaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		104266F72A4226AA000B1A3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					104266FE2A4226AA000B1A3E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 104266FA2A4226AA000B1A3E /* Build configuration list for PBXProject "figmaApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 104266F62A4226AA000B1A3E;
+			productRefGroup = 104267002A4226AA000B1A3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				104266FE2A4226AA000B1A3E /* figmaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		104266FD2A4226AA000B1A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1042670A2A4226AA000B1A3E /* Preview Assets.xcassets in Resources */,
+				104267072A4226AA000B1A3E /* Assets.xcassets in Resources */,
+				104267132A4235C3000B1A3E /* Inter-Bold.otf in Resources */,
+				104267142A4235C3000B1A3E /* Inter-SemiBold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		104266FB2A4226AA000B1A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FDA7AE2A425C87006EA294 /* TaskListView.swift in Sources */,
+				10FDA7A82A425BB0006EA294 /* SettingsView.swift in Sources */,
+				10FDA7AC2A425BDE006EA294 /* RemindersView.swift in Sources */,
+				10FDA7AA2A425BC2006EA294 /* InboxView.swift in Sources */,
+				104267052A4226AA000B1A3E /* ContentView.swift in Sources */,
+				104267172A4236FD000B1A3E /* File.swift in Sources */,
+				104267032A4226AA000B1A3E /* figmaAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1042670B2A4226AA000B1A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1042670C2A4226AA000B1A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1042670E2A4226AA000B1A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"figmaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 88U76XG5U8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = figmaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FaridWears.figmaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1042670F2A4226AA000B1A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"figmaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 88U76XG5U8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = figmaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FaridWears.figmaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		104266FA2A4226AA000B1A3E /* Build configuration list for PBXProject "figmaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1042670B2A4226AA000B1A3E /* Debug */,
+				1042670C2A4226AA000B1A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1042670D2A4226AA000B1A3E /* Build configuration list for PBXNativeTarget "figmaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1042670E2A4226AA000B1A3E /* Debug */,
+				1042670F2A4226AA000B1A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 104266F72A4226AA000B1A3E /* Project object */;
+}
